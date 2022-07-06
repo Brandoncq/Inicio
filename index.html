@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="lib/style.css">
     <script type="module">
 
-        import {agregar} from './lib/index.js';
+        import {insertar_inicio} from './lib/index.js';
         import {insertar_al_final} from './lib/index.js';
         import {insertar_antes_x} from './lib/index.js';
         import {insertar_despues_x} from './lib/index.js';
@@ -26,7 +26,7 @@
         import {eliminar_X} from './lib/index.js';
         import {eliminarDespues_X} from './lib/index.js';
         import {eliminar_antes_X} from './lib/index.js';
-        window.agregar=agregar;
+        window.insertar_inicio=insertar_inicio;
         window.insertar_al_final=insertar_al_final;
         window.insertar_antes_x=insertar_antes_x;
         window.insertar_despues_x=insertar_despues_x;
@@ -44,15 +44,15 @@
     
 <canvas id="tutorial" width="700" height="150"></canvas>
 <div id="salida"></div>
-    <button onclick="agregar()">insertar al inicio</button>
-    <button onclick="insertar_al_final()">insertar al final</button>
-    <button onclick="insertar_antes_x()">insertar ante de X</button>
-    <button onclick="insertar_despues_x()">insertar despues de X</button>
-    <button onclick="eliminar_primer()">eliminar_primer</button>
-    <button onclick="eliminar_final()">eliminar_final</button>
-    <button onclick="eliminar_X()">eliminar_X</button>
-    <button onclick="eliminarDespues_X()">eliminarDespues_X</button>
-    <button onclick="eliminar_antes_X()">eliminar_antes_X</button>
+    <button onclick="insertar_inicio()">Insertar al inicio</button>
+    <button onclick="insertar_al_final()">Insertar al final</button>
+    <button onclick="insertar_antes_x()">Insertar antes de X</button>
+    <button onclick="insertar_despues_x()">Insertar despues de X</button>
+    <button onclick="eliminar_primer()">Eliminar primer</button>
+    <button onclick="eliminar_final()">Eliminar final</button>
+    <button onclick="eliminar_X()">Eliminar X</button>
+    <button onclick="eliminarDespues_X()">Eliminar despues de X</button>
+    <button onclick="eliminar_antes_X()">Eliminar antes de X</button>
 </body>
 
 </html>
